@@ -39,3 +39,46 @@ body {
     font-size: 20px;
     justify-content: center;
 }
+
+#Nav {
+    margin: 0px;
+    width: 1024px;
+    height: 45px;
+    border: 0px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+#links {
+    width: 1024px;
+    height: 45px;
+    background-color: deepskyblue;
+    border: 1px solid black;
+    font-size: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#AboutMe {
+    width: 1024px;
+    height: 500px;
+}
+
+#title-for-about-me {
+    font-size: 75px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+#Skills {
+width: 430px;
+height: 290px;
+}
+
+#title-for-skills {
+font-size: 50px;
+display: flex;
+justify-content: left;
+}
