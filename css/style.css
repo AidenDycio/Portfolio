@@ -8,7 +8,7 @@ body {
 
 #main-container {
     width: 1024px;
-    height: 500px;
+    height: 190px;
     margin: 0px;
     border: 1px solid black;;
 }
@@ -63,22 +63,45 @@ body {
 #AboutMe {
     width: 1024px;
     height: 500px;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    border: 1px solid black;
 }
 
 #title-for-about-me {
-    font-size: 75px;
+    font-size: 65px;
     display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
+}
+
+#Academics {
+    width: 435px;
+    height: 295px;
+}
+
+#title-for-academics {
+    font-size: 50px;
+    display: flex;
+    justify-content: left;
+}
+
+#acad-ramble {
+    font-size: 20px;
+    margin: 10px;
 }
 
 #Skills {
-width: 430px;
+width: 320px;
 height: 290px;
+border: 5px solid black;
 }
 
 #title-for-skills {
 font-size: 50px;
 display: flex;
 justify-content: left;
+}
+
+ul {
+    font-size: 20px;
 }
